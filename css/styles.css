@@ -44,3 +44,27 @@ body {
 .download-btn {
   margin: 5% 3% 5% 0;
 }
+
+/* Features */
+
+.fas {
+  color: #ef8172;
+  font-size: 4.5rem;
+}
+.fas:hover {
+  color: #ff4c68;
+}
+
+#features {
+  text-align: center;
+  color: #8f8f8f;
+  padding: 3% 15%;
+}
+.features-titles {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #000;
+}
+.features-container {
+  padding: 5%;
+}
