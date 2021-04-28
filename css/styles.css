@@ -49,8 +49,9 @@ body {
 
 .fas {
   color: #ef8172;
-  font-size: 4.5rem;
+  margin: 1.5rem;
 }
+
 .fas:hover {
   color: #ff4c68;
 }
