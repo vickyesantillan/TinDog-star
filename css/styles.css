@@ -5,7 +5,10 @@ body {
 .dog-img {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  width: 20%;
 }
+
 #title-container {
   padding: 3% 15%;
 }
@@ -20,6 +23,9 @@ body {
 #title {
   background-color: #ff4c68;
 }
+/* #dog-img-container {
+  height: 600px;
+} */
 
 /* Nav bar settings */
 
@@ -57,6 +63,9 @@ body {
 }
 
 #features {
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
   text-align: center;
   color: #8f8f8f;
   padding: 3% 15%;
