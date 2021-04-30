@@ -69,12 +69,12 @@ body {
 
 /* Features */
 
-.fas {
+.favi {
   color: #ef8172;
   margin: 1.5rem;
 }
 
-.fas:hover {
+.favi:hover {
   color: #ff4c68;
 }
 
@@ -173,4 +173,19 @@ body {
   line-height: 1.5;
   color: #fff;
   padding-top: 2.5rem;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #fff;
+  padding: 3% 15%;
+  text-align: center;
+}
+
+.socmed {
+  padding: 2%;
+}
+.copyr {
+  color: #8f8f8f;
 }
