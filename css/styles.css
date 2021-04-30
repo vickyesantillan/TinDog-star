@@ -32,6 +32,17 @@ body {
   height: 600px;
 }
 
+@media (max-width: 1030px) {
+  .container-fluid {
+    text-align: center;
+  }
+  .dog-img {
+    position: static;
+    transform: none;
+    width: 3%;
+  }
+}
+
 /* Nav bar settings */
 
 .navbar {
