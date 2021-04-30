@@ -7,6 +7,7 @@ body {
   transform: rotate(25deg);
   position: absolute;
   width: 20%;
+  right: 25%;
 }
 
 #title-container {
@@ -23,9 +24,13 @@ body {
 #title {
   background-color: #ff4c68;
 }
-/* #dog-img-container {
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+#dog-img-container {
   height: 600px;
-} */
+}
 
 /* Nav bar settings */
 
