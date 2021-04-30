@@ -157,3 +157,20 @@ body {
 .pricing-card {
   padding: 3% 2%;
 }
+
+/* call to action section */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 3% 15%;
+}
+
+.cta-h3 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+  padding-top: 2.5rem;
+}
