@@ -1,7 +1,6 @@
 body {
   font-family: 'Montserrat';
   text-align: center;
-  color: #fff;
 }
 
 .container-fluid {
@@ -12,19 +11,23 @@ p {
   color: #8f8f8f;
 }
 
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+  color: #000;
+}
+
 /* Headings */
 
 .title {
-  color: #fff;
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
   padding-top: 2.5rem;
-}
-
-#title .title {
-  text-align: left;
-  padding-bottom: 2.5rem;
 }
 
 .h2-title {
@@ -40,8 +43,9 @@ p {
 
 /* Title Section */
 
-#title {
-  background-color: #ff4c68;
+#title .container-fluid {
+  text-align: left;
+  padding-bottom: 2.5rem;
 }
 
 .dog-img {
@@ -91,7 +95,6 @@ p {
 #features {
   position: relative;
   z-index: 1;
-  background-color: #fff;
 }
 
 .features-container {
@@ -141,28 +144,16 @@ p {
 
 #pricing {
   padding: 100px;
-  color: #000;
 }
 
 #pricing h2 {
-  color: #000;
   font-size: 2.5rem;
 }
 .pricing-card {
   padding: 3% 2%;
 }
 
-/* call to action section */
-
-#cta {
-  background-color: #ff4c68;
-}
-
 /* Footer */
-
-#footer {
-  background-color: #fff;
-}
 
 #footer i {
   color: #000;
