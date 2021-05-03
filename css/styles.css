@@ -17,6 +17,12 @@ body {
   padding-bottom: 2.5rem;
 }
 
+.h3-titles-informative {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #000;
+}
+
 /* Title Section */
 
 #title {
@@ -82,11 +88,7 @@ body {
   background-color: #fff;
   color: #8f8f8f;
 }
-.features-titles {
-  font-weight: 700;
-  font-size: 1.5rem;
-  color: #000;
-}
+
 .features-container {
   padding: 5%;
 }
@@ -143,12 +145,6 @@ body {
 #pricing {
   padding: 100px;
   color: #8f8f8f;
-}
-
-.prices-plans {
-  color: #000;
-  font-weight: 700;
-  font-size: 1.5rem;
 }
 
 .prices {
