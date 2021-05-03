@@ -14,6 +14,7 @@ body {
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
+  padding-top: 2.5rem;
 }
 
 .big-title {
@@ -34,19 +35,14 @@ body {
 }
 
 #title .container-fluid {
-  padding: 3% 15% 7%;
-}
-
-.dog-img-container {
-  height: 600px;
+  /* padding: 3% 15% 7%; */
 }
 
 .dog-img {
-  width: 60%;
+  width: 20%;
   transform: rotate(25deg);
   position: absolute;
   right: 25%;
-  width: 20%;
 }
 
 @media (max-width: 1030px) {
@@ -166,14 +162,6 @@ body {
 
 #cta {
   background-color: #ff4c68;
-}
-
-.cta-h3 {
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
-  color: #fff;
-  padding-top: 2.5rem;
 }
 
 /* Footer */
