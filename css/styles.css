@@ -1,6 +1,7 @@
 body {
   font-family: 'Montserrat';
   text-align: center;
+  color: #fff;
 }
 
 .container-fluid {
@@ -88,6 +89,10 @@ p {
   background-color: #fff;
 }
 
+.features-container {
+  padding: 5%;
+}
+
 /* Features Icons */
 
 .favi {
@@ -103,16 +108,11 @@ p {
 
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonials-h2 {
-  font-family: 'Montserrat';
-  font-weight: bold;
   font-size: 3rem;
-  line-height: 1.5;
 }
-
 .testimonial-image {
   width: 10%;
   border-radius: 100%;
@@ -166,8 +166,6 @@ p {
 }
 
 .socmed {
+  color: #000;
   padding: 2%;
-}
-.copyr {
-  color: #8f8f8f;
 }
