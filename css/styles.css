@@ -1,35 +1,42 @@
 body {
   font-family: 'Montserrat';
+  text-align: center;
 }
 
-.dog-img {
-  width: 60%;
-  transform: rotate(25deg);
-  position: absolute;
-  width: 20%;
-  right: 25%;
-}
-
-#title-container {
+.container-fluid {
   padding: 3% 15%;
 }
-#h1-title {
-  font-family: 'Montserrat';
+
+/* Headings */
+
+.big-title {
+  text-align: left;
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
   padding-bottom: 2.5rem;
 }
 
+/* Title Section */
+
 #title {
   background-color: #ff4c68;
 }
 
-.container-fluid {
+#title .container-fluid {
   padding: 3% 15% 7%;
 }
-#dog-img-container {
+
+.dog-img-container {
   height: 600px;
+}
+
+.dog-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+  width: 20%;
 }
 
 @media (max-width: 1030px) {
@@ -39,11 +46,11 @@ body {
   .dog-img {
     position: static;
     transform: none;
-    width: 3%;
+    width: 50%;
   }
 }
 
-/* Nav bar settings */
+/* Navegation bar settings */
 
 .navbar {
   padding-bottom: 4.5rem;
@@ -69,22 +76,11 @@ body {
 
 /* Features */
 
-.favi {
-  color: #ef8172;
-  margin: 1.5rem;
-}
-
-.favi:hover {
-  color: #ff4c68;
-}
-
 #features {
   position: relative;
   z-index: 1;
   background-color: #fff;
-  text-align: center;
   color: #8f8f8f;
-  padding: 3% 15%;
 }
 .features-titles {
   font-weight: 700;
@@ -95,10 +91,20 @@ body {
   padding: 5%;
 }
 
+/* Features Icons */
+
+.favi {
+  color: #ef8172;
+  margin: 1.5rem;
+}
+
+.favi:hover {
+  color: #ff4c68;
+}
+
 /* Testimonial Section  */
 
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
@@ -124,7 +130,6 @@ body {
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -136,7 +141,6 @@ body {
 /* Princing section */
 
 #pricing {
-  text-align: center;
   padding: 100px;
   color: #8f8f8f;
 }
@@ -162,8 +166,6 @@ body {
 
 #cta {
   background-color: #ff4c68;
-  text-align: center;
-  padding: 3% 15%;
 }
 
 .cta-h3 {
@@ -179,8 +181,6 @@ body {
 
 #footer {
   background-color: #fff;
-  padding: 3% 15%;
-  text-align: center;
 }
 
 .socmed {
