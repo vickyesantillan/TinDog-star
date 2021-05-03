@@ -7,6 +7,10 @@ body {
   padding: 3% 15%;
 }
 
+p {
+  color: #8f8f8f;
+}
+
 /* Headings */
 
 .title {
@@ -82,11 +86,6 @@ body {
   position: relative;
   z-index: 1;
   background-color: #fff;
-  color: #8f8f8f;
-}
-
-.features-container {
-  padding: 5%;
 }
 
 /* Features Icons */
