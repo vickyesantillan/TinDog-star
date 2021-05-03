@@ -9,11 +9,15 @@ body {
 
 /* Headings */
 
-.big-title {
-  text-align: left;
+.title {
+  color: #fff;
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
+}
+
+.big-title {
+  text-align: left;
   padding-bottom: 2.5rem;
 }
 
@@ -165,7 +169,6 @@ body {
 }
 
 .cta-h3 {
-  font-family: 'Montserrat';
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
