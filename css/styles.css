@@ -27,6 +27,11 @@ p {
   padding-bottom: 2.5rem;
 }
 
+.h2-title {
+  font-size: 3rem;
+  padding-top: 0%;
+}
+
 .h3-titles-informative {
   font-weight: 700;
   font-size: 1.5rem;
@@ -110,9 +115,6 @@ p {
   background-color: #ef8172;
 }
 
-.testimonials-h2 {
-  font-size: 3rem;
-}
 .testimonial-image {
   width: 10%;
   border-radius: 100%;
@@ -139,16 +141,9 @@ p {
 
 #pricing {
   padding: 100px;
-  color: #8f8f8f;
+  color: #000;
 }
 
-.prices {
-  color: #000;
-  font-family: 'Montserrat';
-  font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
-}
 .pricing-card {
   padding: 3% 2%;
 }
